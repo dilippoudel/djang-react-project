@@ -1,8 +1,13 @@
 import axios from 'axios'
 import { ACCESS_TOKEN } from './constants'
+<<<<<<< HEAD
 // const apiUrl = '/choreo-apis/djangreact/backend/v1/'
 const api = axios.create({
   baseURL: 'http://127.0.0.1:8000/',
+=======
+const api = axios.create({
+  baseURL: '/choreo-apis/djangreact/backend/v1/',
+>>>>>>> refs/remotes/origin/main
 })
 
 api.interceptors.request.use(
